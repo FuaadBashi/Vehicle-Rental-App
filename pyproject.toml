@@ -1,0 +1,14 @@
+[project]
+name = "vehicle-rental"
+version = "1.0.0"
+description = "Console vehicle rental system: motorbikes and e-scooters rented by the minute."
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
